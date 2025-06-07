@@ -1,0 +1,204 @@
+.movie_list_header {
+    padding: 10px 30px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.movie_list_heading {
+    font-size: 22px;
+    color: #0d1b2a
+}
+
+.movie_filter {
+    list-style: none;
+    font-size: 16px;
+}
+
+.movie_filter_item {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.movie_sorting {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    height: 30px;
+    padding: 0 5px ;
+    margin: 0 10px;
+}
+
+.movie_filter_item.active {
+    border-bottom: 1px solid #4b0082;
+    font-weight: 500;
+}
+
+.movie_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 1080px) {
+  
+
+  .movie_list_heading {
+    font-size: 17px;
+    color: #0d1b2a;
+  }
+
+  .movie_list_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+}
+
+.movie_list_filters {
+  display: flex;
+  align-items: center;
+  
+  gap: 10px;
+  margin-left: auto; }
+
+.movie_filter {
+  list-style: none;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.movie_sorting {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  height: 24px;
+  padding: 0 6px;
+  margin: 0 10px;
+}
+
+.movie_filter_item.active {
+  border-bottom: 2px solid #4b0082;
+  font-weight: 700;
+}
+
+  .movie_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .movie_list_controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+}
+
+
+@media (max-width: 800px){
+    .movie_list_header {
+    padding: 10px 30px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.movie_list_heading {
+    font-size: 15px;
+    color: #0d1b2a
+}
+.movie_filter {
+    list-style: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.movie_sorting {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: inherit;
+    height: 22px;
+    padding: 0 5px ;
+    margin: 0 10px;
+}
+
+.movie_filter_item.active {
+    border-bottom: 1px solid #4b0082;
+    font-weight: 700;
+}
+
+.movie_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+}
+
+
+@media (max-width: 600px) {
+  .movie_list_header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    gap: 10px; 
+    flex-wrap: wrap; 
+  }
+
+  .movie_list_heading {
+    font-size: 15px;
+    color: #0d1b2a;
+  }
+
+  .movie_filter {
+    list-style: none;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .movie_sorting {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: inherit;
+    height: 22px;
+    padding: 0 5px;
+    margin: 0 10px;
+  }
+
+  .movie_filter_item.active {
+    border-bottom: 1px solid #4b0082;
+    font-weight: 700;
+  }
+
+  .movie_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .movie_list_fs {
+    text-align: center;
+    width: 100%; 
+  }
+}

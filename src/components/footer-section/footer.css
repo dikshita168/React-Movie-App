@@ -1,0 +1,66 @@
+.footer {
+  width: 100vw;              /* full viewport width */
+  box-sizing: border-box;
+  padding: 15px 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  background-color: #0d1b2a;
+  color: #dbd6d6;
+  overflow-x: hidden;
+}
+
+.footer_icons {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 24px;
+  color: #dbd6d6;
+}
+
+.footer_icons a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer_icons a:hover {
+  color: #bcd7f2; /* Example hover color */
+}
+
+@media (max-width: 1080px) {
+  
+  .footer {
+    padding: 12px 5px;
+    width: 100vw; 
+  }
+
+  .footer_icons {
+    font-size: 20px;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    padding: 10px 0px;
+    width: 100vw; 
+  }
+
+  .footer_icons {
+    font-size: 18px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 8px 10px;
+    width: 100vw; 
+  }
+
+  .footer_icons {
+    font-size: 16px;
+    gap: 8px;
+  }
+}

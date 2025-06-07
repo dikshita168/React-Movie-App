@@ -1,0 +1,15 @@
+1. create src
+2. create main.jsx   and App.jsx , global.css
+3. import global.css in App.jsx
+4   adding google fonts => offline method
+
+
+
+api =>  https://api.themoviedb.org/3/movie/popular?api_key=205b0bd1b381e93ec4e63cea63706d44
+
+
+api key = 205b0bd1b381e93ec4e63cea63706d44
+
+npm install axios
+
+TMDB documemtation => https://developer.themoviedb.org/docs/getting-started
