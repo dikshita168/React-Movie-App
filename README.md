@@ -42,7 +42,7 @@ CineVerse is a modern and responsive web application that allows users to explor
 - 🛡️ Error handling with graceful fallbacks
 
 ---
-##  Tech Stack - built
+##  Built with
 
 -  React
 -  TMDb API
