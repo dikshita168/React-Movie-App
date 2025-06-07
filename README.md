@@ -6,7 +6,7 @@ CineVerse is a modern and responsive web application that allows users to explor
 
 ## 🚀 Live Demo
 
-🌐 [View Live Project](https://your-deployment-link.com)
+🌐 [View Live Project](https://cineverseapp-dikshita168.netlify.app/)
 
 ---
 ### Homepage / Popular Movie Section
